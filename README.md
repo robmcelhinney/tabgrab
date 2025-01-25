@@ -15,6 +15,10 @@
 
 ## Installation 🛠️
 
+1. Go to https://github.com/robmcelhinney/tabgrab/releases and click on `.xpi` file.
+
+Or to download it and run it manually
+
 1. Clone this repository:
 
     ```bash
