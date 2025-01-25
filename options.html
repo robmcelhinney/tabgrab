@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Tab Saver & QR - Restore Tabs</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                padding: 20px;
+                max-width: 600px;
+                margin: auto;
+            }
+            h2 {
+                text-align: center;
+            }
+            #restore-section {
+                margin-top: 20px;
+                text-align: center;
+            }
+            #restore-file-input {
+                display: none;
+            }
+            #restore-button {
+                padding: 10px 20px;
+                font-size: 16px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Restore Tabs from JSON</h2>
+        <div id="restore-section">
+            <button id="restore-button">
+                Select JSON File to Restore Tabs
+            </button>
+            <input type="file" id="restore-file-input" accept=".json" />
+        </div>
+
+        <script src="options.js"></script>
+    </body>
+</html>
