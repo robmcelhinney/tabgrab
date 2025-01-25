@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "Tab Saver & QR",
+    "name": "TabGrab",
     "version": "1.0",
     "description": "Saves and restores tabs as JSON, plus generates a QR code to download that JSON.",
     "permissions": [
